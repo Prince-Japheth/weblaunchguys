@@ -1,0 +1,735 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Launch Guys - Web Development & Design Agency</title>
+    <meta name="keywords" content="web design, creative agency, branding, digital marketing, website development, design agency">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/fonts/remixicon.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/output.css">
+</head>
+
+<body>
+    <div class="preloader z-[999] fixed w-full h-screen left-0 top-0 overflow-hidden">
+        <svg viewbox="0 0 1000 1000" preserveaspectratio="none">
+            <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+        <div class="preloader-heading absolute top-0 left-0 flex justify-center items-center w-full h-full">
+            <div class="load-text text-xl font-extralight uppercase tracking-[15px] text-white">
+                <span>L</span><span>o</span><span>a</span><span>d</span><span>i</span><span>n</span><span>g</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- header start -->
+    <header id="header" class="fixed top-0 py-5 w-full z-50 transition-all duration-500">
+        <div class="container">
+            <div class="flex justify-between items-center">
+                <a href="#">
+                    <img src="assets/images/logos/logo.png" alt="logo" class="lg:max-w-[160px] max-w-[120px]">
+                </a>
+                <div class="text-3xl mt-1 cursor-pointer block lg:hidden" id="menu-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+                <nav id="menu" class="lg:bg-secondary bg-black-300 lg:rounded-[50px] lg:static absolute left-0 top-16 z-50 w-full max-h-0 overflow-hidden opacity-0 invisible lg:max-h-full lg:opacity-100 lg:visible lg:w-auto transition-all duration-500 ease-linear rounded-[30px] mx-5">
+                    <ul class="flex lg:flex-row flex-col">
+                        <li class="border-b border-b-black-100 lg:border-b-0">
+                            <a href="#how" class="text-[#dedede] font-medium font-bricolage px-5 py-2.5 inline-block hover:text-primary transition-all duration-500">How
+                                It Works</a>
+                        </li>
+                        <li class="border-b border-b-black-100 lg:border-b-0">
+                            <a href="#services" class="text-[#dedede] font-medium font-bricolage px-5 py-2.5 inline-block hover:text-primary transition-all duration-500">Services</a>
+                        </li>
+                        <li class="border-b border-b-black-100 lg:border-b-0">
+                            <a href="#projects" class="text-[#dedede] font-medium font-bricolage px-5 py-2.5 inline-block hover:text-primary transition-all duration-500">Projects</a>
+                        </li>
+                        <li class="border-b border-b-black-100 lg:border-b-0">
+                            <a href="#pricing" class="text-[#dedede] font-medium font-bricolage px-5 py-2.5 inline-block hover:text-primary transition-all duration-500">Pricing</a>
+                        </li>
+                        <li class="border-b border-b-black-100 lg:border-b-0">
+                            <a href="#faqs" class="text-[#dedede] font-medium font-bricolage px-5 py-2.5 inline-block hover:text-primary transition-all duration-500">Faqs</a>
+                        </li>
+                        <li class="border-b border-b-black-100 lg:border-b-0">
+                            <a href="#book" class="text-[#dedede] font-medium font-bricolage px-5 py-2.5 inline-block hover:text-primary transition-all duration-500">Book
+                                Now</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- Hero start -->
+    <section id="home" class="lg:pt-[200px] pt-[120px]">
+        <div class="container">
+            <div class="md:w-[70%] mx-auto text-center relative fadeInUp" data-delay="0.2">
+                <h3 class="border border-[#bebebe] py-2.5 px-5 rounded-3xl md:text-base md:leading-5 text-sm inline-block font-normal mb-[5px]">
+                    <i class="ri-code-line"></i> Web Development & Design Agency
+                </h3>
+                <h2 class="lg:py-2.5 py-5 font-semibold xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px]">
+                    Building Digital Experiences That Drive Results</h2>
+                <p class="text-xl leading-7 mb-[5px] px-15 text-black-100">We craft stunning websites and digital solutions that elevate your brand. From concept to deployment, we bring your vision to life with expert development and creative design.</p>
+                <div class="mt-7.5">
+                    <a href="#pricing" class="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white">View Our Services</a>
+                    <a href="#book" class="btn bg-black-200 text-white border-black-200 hover:text-primary">Start Your Project</a>
+                </div>
+                <div class="absolute lg:right-[-25%] top-1/2 right-0">
+                    <img src="assets/images/shapes/shape1.png" alt="Shape" class="lg:max-w-[300px] max-w-[70px]">
+                </div>
+                <div class="absolute lg:-left-[30%] top-[10%] left-0">
+                    <img src="assets/images/shapes/shape2.png" alt="Shape" class="lg:max-w-[200px] max-w-15" style="filter: hue-rotate(260deg) saturate(150%) brightness(90%);">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- Recent Work start -->
+    <div class="pt-5" id="portfolio">
+        <div>
+            <img src="assets/images/shapes/work-scribble.png" alt="custom" class="max-w-[300px]">
+        </div>
+        <div class="px-3">
+            <div class="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6">
+                <div>
+                    <div class="single-header-work-img">
+                        <img src="assets/images/projects/work7.jpg" alt="project" class="border-8 border-[#ccc] rounded-[10px]">
+                    </div>
+                </div>
+                <div>
+                    <div class="single-header-work-img">
+                        <img src="assets/images/projects/work1.jpg" alt="project" class="border-8 border-[#ccc] rounded-[10px]">
+                    </div>
+                </div>
+                <div>
+                    <div class="single-header-work-img">
+                        <img src="assets/images/projects/work6.jpg" alt="project" class="border-8 border-[#ccc] rounded-[10px]">
+                    </div>
+                </div>
+                <div>
+                    <div class="single-header-work-img">
+                        <img src="assets/images/projects/work5.jpg" alt="project" class="border-8 border-[#ccc] rounded-[10px]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Recent Work end -->
+
+    <!-- partners start -->
+    <div class="lg:pt-25 pt-15">
+        <div class="container">
+            <h2 class="uppercase text-base text-center tracking-[5px] mb-7.5 font-medium">Top companies trust us with their design</h2>
+            <div class="company-list">
+                <div class="logo-slider overflow-hidden flex">
+                    <div class="logos-slide">
+                        <img src="assets/images/company-logo/company1.png" alt="company logo">
+                        <img src="assets/images/company-logo/company2.png" alt="company logo">
+                        <img src="assets/images/company-logo/company3.png" alt="company logo">
+                        <img src="assets/images/company-logo/company4.png" alt="company logo">
+                        <img src="assets/images/company-logo/company5.png" alt="company logo">
+                        <img src="assets/images/company-logo/company6.png" alt="company logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- partners end -->
+
+    <!-- About Start -->
+    <section class="lg:pt-25 pt-15">
+        <div class="container">
+            <div class="text-center pb-15 fadeInUp" data-delay="0.2">
+                <h3 class="border border-[#bebebe] py-2.5 px-5 rounded-3xl md:text-base md:leading-5 text-sm inline-block font-normal mb-[5px]">
+                    <i class="ri-code-line text-primary"></i>
+                    About Us
+                </h3>
+                <h2 class="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black-100 font-medium">
+                    Our Vision</h2>
+            </div>
+            <div class="lg:w-[80%] w-full mx-auto bg-black-200 lg:py-[70px] lg:px-20 py-5 px-5 lg:rounded-[40px] rounded-[30px] fadeInUp" data-delay="0.2">
+                <div class="grid md:grid-cols-2 gap-5 items-center">
+                    <div>
+                        <h3 class="md:text-3xl md:leading-[48px] text-2xl leading-9 text-white mb-7.5">At Web Launch Guys, we combine expert <span class="text-primary font-semibold">web development</span> with creative design to build powerful digital solutions.</h3>
+                        <p class="text-[#dedede] text-lg leading-7">Our team of developers and designers work together to deliver <span class="text-primary font-semibold">exceptional websites</span> that help our clients succeed in the digital landscape.</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-5">
+                        <div class="bg-black-300 p-5 rounded-[20px] text-center">
+                            <i class="ri-code-box-line text-3xl text-primary mb-3 block"></i>
+                            <h4 class="text-white font-medium">Expert Development</h4>
+                        </div>
+                        <div class="bg-black-300 p-5 rounded-[20px] text-center">
+                            <i class="ri-palette-line text-3xl text-primary mb-3 block"></i>
+                            <h4 class="text-white font-medium">Creative Design</h4>
+                        </div>
+                        <div class="bg-black-300 p-5 rounded-[20px] text-center">
+                            <i class="ri-rocket-line text-3xl text-primary mb-3 block"></i>
+                            <h4 class="text-white font-medium">Fast Delivery</h4>
+                        </div>
+                        <div class="bg-black-300 p-5 rounded-[20px] text-center">
+                            <i class="ri-customer-service-2-line text-3xl text-primary mb-3 block"></i>
+                            <h4 class="text-white font-medium">Ongoing Support</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+    <!-- work process start -->
+    <section id="how" class="lg:pt-25 pt-15">
+        <div class="container">
+            <div class="text-center pb-15 fadeInUp" data-delay="0.2">
+                <h3 class="border border-[#bebebe] py-2.5 px-5 rounded-3xl md:text-base md:leading-5 text-sm inline-block font-normal mb-[5px]">
+                    <i class="ri-arrow-right-up-line text-primary"></i>
+                    Our Process
+                </h3>
+                <h2 class="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black-100 font-medium">
+                    How We Work</h2>
+                <p class="md:text-xl md:leading-7 text-base mt-2">Our proven process ensures exceptional results every time.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-x-6 gap-y-12.5 lg:pt-15 pt-0">
+                <div class="flex flex-col items-center text-center relative sm:px-[25px] px-0 ">
+                    <div class="lg:w-[65px] lg:h-[65px] w-12.5 h-12.5 rounded-full flex items-center justify-center border border-[rgba(0,0,0,.08)] relative">
+                        <i class="ri-message-2-line text-[25px]"></i>
+                        <div class="overlay-list absolute -right-2 -top-2 bg-primary flex justify-center items-center text-white lg:w-7.5 lg:h-7.5 w-6 h-6 rounded-full">
+                            <span class="lg:font-medium text-sm">01</span>
+                        </div>
+                    </div>
+                    <div class="lg:pt-6 pt-5">
+                        <div class="title-box">
+                            <h3 class="lg:text-[32px] text-[26px] lg:leading-[30px] font-bold"><a href="#">Consultation</a>
+                            </h3>
+                        </div>
+                        <div class="text-box lg:mt-[22px] mt-4">
+                            <p class="text-lg font-medium leading-7">We begin with a detailed discussion to understand your vision, goals, and requirements for the project.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center text-center relative sm:px-[25px] px-0 ">
+                    <div class="absolute top-0 left-[-110px] opacity-50 lg:block hidden">
+                        <img src="assets/images/shapes/workprocess-shape2.png" alt="shapes" style="filter: hue-rotate(260deg) saturate(150%) brightness(90%);">
+                    </div>
+                    <div class="lg:w-[65px] lg:h-[65px] w-12.5 h-12.5 rounded-full flex items-center justify-center border border-[rgba(0,0,0,.08)] relative">
+                        <i class="ri-palette-line text-[25px]"></i>
+                        <div class="overlay-list absolute -right-2 -top-2 bg-primary flex justify-center items-center text-white lg:w-7.5 lg:h-7.5 w-6 h-6 rounded-full">
+                            <span class="lg:font-medium text-sm">02</span>
+                        </div>
+                    </div>
+                    <div class="lg:pt-6 pt-5">
+                        <div class="title-box">
+                            <h3 class="lg:text-[32px] text-[26px] lg:leading-[30px] font-bold"><a href="#">Design & Development</a>
+                            </h3>
+                        </div>
+                        <div class="text-box lg:mt-[22px] mt-4">
+                            <p class="text-lg font-medium leading-7">Our team creates and refines your design, ensuring every detail aligns with your vision and brand identity.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center text-center relative sm:px-[25px] px-0 ">
+                    <div class="absolute top-0 left-[-110px] opacity-50 lg:block hidden">
+                        <img src="assets/images/shapes/workprocess-shape1.png" alt="shapes">
+                    </div>
+                    <div class="lg:w-[65px] lg:h-[65px] w-12.5 h-12.5 rounded-full flex items-center justify-center border border-[rgba(0,0,0,.08)] relative">
+                        <i class="ri-rocket-line text-[25px]"></i>
+                        <div class="overlay-list absolute -right-2 -top-2 bg-primary flex justify-center items-center text-white lg:w-7.5 lg:h-7.5 w-6 h-6 rounded-full">
+                            <span class="lg:font-medium text-sm">03</span>
+                        </div>
+                    </div>
+                    <div class="lg:pt-6 pt-5">
+                        <div class="title-box">
+                            <h3 class="lg:text-[32px] text-[26px] lg:leading-[30px] font-bold"><a href="#">Launch & Support</a>
+                            </h3>
+                        </div>
+                        <div class="text-box lg:mt-[22px] mt-4">
+                            <p class="text-lg font-medium leading-7">We deliver your project and provide ongoing support to ensure everything runs smoothly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- work process end -->
+
+    <!-- services start -->
+    <section id="services" class="lg:pt-25 pt-15">
+        <div class="container">
+            <div class="text-center pb-15 fadeInUp" data-delay="0.2">
+                <h3 class="border border-[#bebebe] py-2.5 px-5 rounded-3xl md:text-base md:leading-5 text-sm inline-block font-normal mb-[5px]">
+                    <i class="ri-code-line text-primary"></i>
+                    Services
+                </h3>
+                <h2 class="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black-100 font-medium">
+                    Our Services</h2>
+                <p class="md:text-xl md:leading-7 text-base mt-2">Comprehensive web development and design solutions for your business</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
+                <div class="col-lg-4 col-md-6">
+                    <div class="info-item border border-[#bebebe] pt-7.5 pl-7.5 rounded-[15px] fadeInUp" data-delay="0.2">
+                        <div class="mb-10">
+                            <h4 class="lg:text-3xl text-[26px] lg:leading-[49px] font-medium mb-2">Custom Web Development</h4>
+                            <p class="lg:text-lg text-base font-medium lg:leading-7">Build powerful, scalable websites and web applications tailored to your specific business needs.</p>
+                        </div>
+                        <img src="assets/images/services/service1.jpg" alt="Web Development">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="info-item border border-[#bebebe] pt-7.5 pl-7.5 rounded-[15px] fadeInUp" data-delay="0.4">
+                        <div class="mb-10">
+                            <h4 class="lg:text-3xl text-[26px] lg:leading-[49px] font-medium mb-2">E-commerce Solutions</h4>
+                            <p class="lg:text-lg text-base font-medium lg:leading-7">Create robust online stores with secure payment processing and inventory management.</p>
+                        </div>
+                        <img src="assets/images/services/service2.jpg" alt="E-commerce">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="info-item border border-[#bebebe] pt-7.5 pl-7.5 rounded-[15px]  fadeInUp" data-delay="0.6">
+                        <div class="mb-10">
+                            <h4 class="lg:text-3xl text-[26px] lg:leading-[49px] font-medium mb-2">Website Maintenance</h4>
+                            <p class="lg:text-lg text-base font-medium lg:leading-7">Keep your website secure, updated, and performing at its best with our maintenance services.</p>
+                        </div>
+                        <img src="assets/images/services/service3.jpg" alt="Maintenance">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services end -->
+
+    <!-- projects start -->
+    <div class="lg:pt-25 pt-15" id="projects">
+        <div class="container">
+            <div class="text-center pb-15 fadeInUp" data-delay="0.2">
+                <h3 class="border border-[#bebebe] py-2.5 px-5 rounded-3xl md:text-base md:leading-5 text-sm inline-block font-normal mb-[5px]">
+                    <i class="ri-arrow-right-up-line text-primary"></i>
+                    Projects
+                </h3>
+                <h2 class="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black-100 font-medium">
+                    Featured Projects</h2>
+                <p class="md:text-xl md:leading-7 text-base mt-2">Get a glimpse of our work</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <a href="assets/images/projects/work7.jpg" class="work-popup">
+                        <div class="rounded-lg overflow-hidden relative after:absolute after:left-0 after:top-0 after:w-full after:h-full after:bg-[linear-gradient(0deg,_rgba(0,0,0,.3),_transparent)] after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-500 group">
+                            <img src="assets/images/projects/work7.jpg" alt="" data-rjs="2" class="group-hover:blur-[1.5px] group-hover:scale-[1.04] transition-all duration-500">
+                            <span class="absolute top-4 right-4 inline-block rounded-[32px] bg-[rgba(255,79,1,.5)] py-[7px] px-[14px] text-white text-sm uppercase tracking-wider leading-[30px] font-medium">Website</span>
+                            <div class="z-20 absolute left-7.5 -bottom-0 opacity-0 group-hover:opacity-100 group-hover:bottom-6 transition-all duration-500">
+                                <h1 class="lg:text-3xl text-[26px] font-semibold text-white">A Branch with Flowers</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="assets/images/projects/work1.jpg" class="work-popup">
+                        <div class="rounded-lg overflow-hidden relative after:absolute after:left-0 after:top-0 after:w-full after:h-full after:bg-[linear-gradient(0deg,_rgba(0,0,0,.3),_transparent)] after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-500 group">
+                            <img src="assets/images/projects/work1.jpg" alt="" data-rjs="2" class="group-hover:blur-[1.5px] group-hover:scale-[1.04] transition-all duration-500">
+                            <span class="absolute top-4 right-4 inline-block rounded-[32px] bg-[rgba(255,79,1,.5)] py-[7px] px-[14px] text-white text-sm uppercase tracking-wider leading-[30px] font-medium">Apps</span>
+                            <div class="z-20 absolute left-7.5 -bottom-0 opacity-0 group-hover:opacity-100 group-hover:bottom-6 transition-all duration-500">
+                                <h1 class="lg:text-3xl text-[26px] font-semibold text-white">Orange Rose Flower</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-xl-6 portfolio-item category-1">
+                    <a href="assets/images/projects/work6.jpg" class="work-popup">
+                        <div class="rounded-lg overflow-hidden relative after:absolute after:left-0 after:top-0 after:w-full after:h-full after:bg-[linear-gradient(0deg,_rgba(0,0,0,.3),_transparent)] after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-500 group">
+                            <img src="assets/images/projects/work6.jpg" alt="" data-rjs="2" class="group-hover:blur-[1.5px] group-hover:scale-[1.04] transition-all duration-500">
+                            <span class="absolute top-4 right-4 inline-block rounded-[32px] bg-[rgba(255,79,1,.5)] py-[7px] px-[14px] text-white text-sm uppercase tracking-wider leading-[30px] font-medium">Landing</span>
+                            <div class="z-20 absolute left-7.5 -bottom-0 opacity-0 group-hover:opacity-100 group-hover:bottom-6 transition-all duration-500">
+                                <h1 class="lg:text-3xl text-[26px] font-semibold text-white">Green Plant on a Desk</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="assets/images/projects/work5.jpg" class="work-popup">
+                        <div class="rounded-lg overflow-hidden relative after:absolute after:left-0 after:top-0 after:w-full after:h-full after:bg-[linear-gradient(0deg,_rgba(0,0,0,.3),_transparent)] after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-500 group">
+                            <img src="assets/images/projects/work5.jpg" alt="" data-rjs="2" class="group-hover:blur-[1.5px] group-hover:scale-[1.04] transition-all duration-500">
+                            <span class="absolute top-4 right-4 inline-block rounded-[32px] bg-[rgba(255,79,1,.5)] py-[7px] px-[14px] text-white text-sm uppercase tracking-wider leading-[30px] font-medium">Mockup</span>
+                            <div class="z-20 absolute left-7.5 -bottom-0 opacity-0 group-hover:opacity-100 group-hover:bottom-6 transition-all duration-500">
+                                <h1 class="lg:text-3xl text-[26px] font-semibold text-white">Orange Rose Flower</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-7.5 text-center">
+                <a href="#" class="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white">View all
+                    works</a>
+            </div>
+        </div>
+    </div>
+    <!-- projects end -->
+
+    <!-- Testimonials start -->
+    <section class="lg:pt-25 pt-15">
+        <div class="container">
+            <div class="testimonials-wrap">
+                <div class="lg:px-10 lg:py-12.5 px-7.5 py-10 border border-primary rounded-2xl text-center mx-[15px]   fadeInUp delay-3s">
+                    <div class="text mb-7.5 lg:text-3xl lg:leading-10 text-2xl italic font-bricolage">"Financial
+                        planners help people
+                        to knowledge in
+                        about how to invest and in
+                        save their moneye the most efficient way eve plan ners help people tioniio know ledige
+                        in about how."</div>
+                    <div class="flex flex-col items-center">
+                        <img src="assets/images/testimonials/author1.jpg" alt="Author" class="rounded-full w-15 h-15 mb-[5px]">
+                        <h5 class="lg:text-2xl text-xl font-medium">Zonathon Doe</h5>
+                        <span class="lg:text-lg lg:leading-[22px] text-sm text-[rgb(119,119,125)]">CEO & Founder
+                            X</span>
+                    </div>
+                </div>
+                <div class="lg:px-10 lg:py-12.5 px-7.5 py-10 border border-primary rounded-2xl text-center mx-[15px] fadeInUp" data-delay="0.4">
+                    <div class="text mb-7.5 lg:text-3xl lg:leading-10 text-2xl italic font-bricolage">"Financial
+                        planners help people
+                        to knowledge in
+                        about how to invest and in
+                        save their moneye the most efficient way eve plan ners help people tioniio know ledige
+                        in about how."</div>
+                    <div class="flex flex-col items-center">
+                        <img src="assets/images/testimonials/author2.jpg" alt="Author" class="rounded-full w-15 h-15 mb-[5px]">
+                        <h5 class="lg:text-2xl text-xl font-medium">Liana Marie</h5>
+                        <span class="lg:text-lg lg:leading-[22px] text-sm text-[rgb(119,119,125)]">Lead Designer
+                            Meta</span>
+                    </div>
+                </div>
+                <div class="lg:px-10 lg:py-12.5 px-7.5 py-10 border border-primary rounded-2xl text-center mx-[15px] fadeInUp" data-delay="0.2">
+                    <div class="text mb-7.5 lg:text-3xl lg:leading-10 text-2xl italic font-bricolage">Financial planners
+                        help people to
+                        knowledge in
+                        about how to invest and in
+                        save their moneye the most efficient way eve plan ners help people tioniio know ledige
+                        in about how.</div>
+                    <div class="flex flex-col items-center">
+                        <img src="assets/images/testimonials/author1.jpg" alt="Author" class="rounded-full w-15 h-15 mb-[5px]">
+                        <h5 class="lg:text-2xl text-xl font-medium">Zonathon Doe</h5>
+                        <span class="lg:text-lg lg:leading-[22px] text-sm text-[rgb(119,119,125)]">CEO & Founder
+                            X</span>
+                    </div>
+                </div>
+                <div class="lg:px-10 lg:py-12.5 px-7.5 py-10 border border-primary rounded-2xl text-center mx-[15px] fadeInUp" data-delay="0.4">
+                    <div class="text mb-7.5 lg:text-3xl lg:leading-10 text-2xl italic font-bricolage">Financial planners
+                        help people to
+                        knowledge in
+                        about how to invest and in
+                        save their moneye the most efficient way eve plan ners help people tioniio know ledige
+                        in about how.</div>
+                    <div class="flex flex-col items-center">
+                        <img src="assets/images/testimonials/author2.jpg" alt="Author" class="rounded-full w-15 h-15 mb-[5px]">
+                        <h5 class="lg:text-2xl text-xl font-medium">Liana Marie</h5>
+                        <span class="lg:text-lg lg:leading-[22px] text-sm text-[rgb(119,119,125)]">Lead Designer
+                            Meta</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center gap-1.5 fadeInUp text-center pt-10" data-delay="0.6">
+                <button class="w-10 h-10 bg-primary inline-flex justify-center items-center rounded-full text-white border border-primary hover:bg-transparent hover:text-black-100 transition-all duration-500 testimonial-prev">
+                    <i class="ri-arrow-left-s-line"></i>
+                </button>
+                <button class="w-10 h-10 bg-primary inline-flex justify-center items-center rounded-full text-white border border-primary hover:bg-transparent hover:text-black-100 transition-all duration-500 testimonial-next">
+                    <i class="ri-arrow-right-s-line"></i>
+                </button>
+            </div>
+
+        </div>
+    </section>
+    <!-- Testimonials end -->
+
+    <!-- Features Start -->
+    <section id="features" class="lg:pt-25 pt-15">
+        <div class="container">
+            <div class="text-center pb-15 fadeInUp" data-delay="0.2">
+                <h3 class="border border-[#bebebe] py-2.5 px-5 rounded-3xl md:text-base md:leading-5 text-sm inline-block font-normal mb-[5px]">
+                    <i class="ri-code-line text-primary"></i>
+                    Why Choose Us
+                </h3>
+                <h2 class="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black-100 font-medium">
+                    Our Expertise</h2>
+                <p class="md:text-xl md:leading-7 text-base mt-2">We combine technical excellence with creative innovation to deliver outstanding web solutions</p>
+            </div>
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-x-6 gap-y-7.5">
+                <div class="text-center py-15 px-7.5 rounded-[15px] border border-[#bebebe] hover:border-primary transition-all duration-500 fadeInUp" data-delay="0.1">
+                    <div>
+                        <i class="ri-code-box-line text-[50px] text-primary"></i>
+                        <h4 class="lg:text-3xl lg:leading-[49px] text-[26px] font-medium my-3">Modern Development</h4>
+                        <p class="lg:text-lg text-base font-medium">Cutting-edge web development using the latest technologies and best practices</p>
+                    </div>
+                </div>
+                <div class="text-center py-15 px-7.5 rounded-[15px] border border-[#bebebe] hover:border-primary transition-all duration-500 fadeInUp" data-delay="0.2">
+                    <div>
+                        <i class="ri-responsive-line text-[50px] text-primary"></i>
+                        <h4 class="lg:text-3xl lg:leading-[49px] text-[26px] font-medium my-3">Responsive Design</h4>
+                        <p class="lg:text-lg text-base font-medium">Websites that look and perform perfectly on all devices</p>
+                    </div>
+                </div>
+                <div class="text-center py-15 px-7.5 rounded-[15px] border border-[#bebebe] hover:border-primary transition-all duration-500 fadeInUp" data-delay="0.3">
+                    <div>
+                        <i class="ri-speed-up-line text-[50px] text-primary"></i>
+                        <h4 class="lg:text-3xl lg:leading-[49px] text-[26px] font-medium my-3">Performance Focus</h4>
+                        <p class="lg:text-lg text-base font-medium">Optimized websites that load quickly and rank well in search engines</p>
+                    </div>
+                </div>
+                <div class="text-center py-15 px-7.5 rounded-[15px] border border-[#bebebe] hover:border-primary transition-all duration-500 fadeInUp" data-delay="0.4">
+                    <div>
+                        <i class="ri-shield-check-line text-[50px] text-primary"></i>
+                        <h4 class="lg:text-3xl lg:leading-[49px] text-[26px] font-medium my-3">Secure & Reliable</h4>
+                        <p class="lg:text-lg text-base font-medium">Built with security in mind and backed by reliable hosting solutions</p>
+                    </div>
+                </div>
+                <div class="text-center py-15 px-7.5 rounded-[15px] border border-[#bebebe] hover:border-primary transition-all duration-500 fadeInUp" data-delay="0.5">
+                    <div>
+                        <i class="ri-user-voice-line text-[50px] text-primary"></i>
+                        <h4 class="lg:text-3xl lg:leading-[49px] text-[26px] font-medium my-3">User-Focused</h4>
+                        <p class="lg:text-lg text-base font-medium">Intuitive interfaces and seamless user experiences</p>
+                    </div>
+                </div>
+                <div class="text-center py-15 px-7.5 rounded-[15px] border border-[#bebebe] hover:border-primary transition-all duration-500 fadeInUp" data-delay="0.6">
+                    <div>
+                        <i class="ri-customer-service-2-line text-[50px] text-primary"></i>
+                        <h4 class="lg:text-3xl lg:leading-[49px] text-[26px] font-medium my-3">Dedicated Support</h4>
+                        <p class="lg:text-lg text-base font-medium">Ongoing maintenance and technical support for your website</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Features End -->
+
+    <!-- Pricing start -->
+    <section id="pricing" class="lg:pt-25 pt-15">
+        <div class="container">
+            <div class="lg:w-[75%] w-full mx-auto">
+                <div class="text-center pb-15 fadeInUp" data-delay="0.2">
+                    <h3 class="border border-[#bebebe] py-2.5 px-5 rounded-3xl md:text-base md:leading-5 text-sm inline-block font-normal mb-[5px]">
+                        <i class="ri-arrow-right-up-line text-primary"></i>
+                        Services
+                    </h3>
+                    <h2 class="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black-100 font-medium">
+                        Our Services</h2>
+                    <p class="md:text-xl md:leading-7 text-base mt-2">Comprehensive design solutions tailored to your needs</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 justify-center gap-6">
+                    <div class="pricing-item p-2.5 rounded-xl border border-primary fadeInUp" data-delay="0.2">
+                        <div class="pricing-header p-5 border-b border-b-primary">
+                            <h4 class="title px-5 py-2.5 rounded-[20px] font-medium leading-[19px] inline-block bg-secondary text-white">
+                                Web Design & Development</h4>
+                            <p class="price text-[38px] font-medium font-bricolage text-primary mt-5">Custom Quote<span class="text-base text-black-100 font-normal capitalize">/project</span></p>
+                            <p class="save-percent text-lg leading-7 mb-5 mt-1">Complete website solutions from concept to launch</p>
+                        </div>
+                        <div class="pricing-details p-5">
+                            <ul class="flex flex-col gap-2.5 mb-[22px]">
+                                <li class="text-[rgb(119,119,125)] text-lg">
+                                    <i class="ri-arrow-right-line mr-2.5"></i>Custom website design
+                                </li>
+                                <li class="text-[rgb(119,119,125)] text-lg">
+                                    <i class="ri-arrow-right-line mr-2.5"></i>Responsive development
+                                </li>
+                                <li class="text-[rgb(119,119,125)] text-lg">
+                                    <i class="ri-arrow-right-line mr-2.5"></i>Content management system
+                                </li>
+                                <li class="text-[rgb(119,119,125)] text-lg">
+                                    <i class="ri-arrow-right-line mr-2.5"></i>SEO optimization
+                                </li>
+                                <li class="text-[rgb(119,119,125)] text-lg">
+                                    <i class="ri-arrow-right-line mr-2.5"></i>Ongoing maintenance
+                                </li>
+                                <li class="text-[rgb(119,119,125)] text-lg">
+                                    <i class="ri-arrow-right-line mr-2.5"></i>Perfect for businesses of all sizes
+                                </li>
+                            </ul>
+                            <a href="#book" class="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white">
+                                Get Started<i class="ri-arrow-right-line ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="pricing-item p-2.5 rounded-xl border border-primary fadeInUp" data-delay="0.4">
+                        <div class="pricing-header p-5 border-b border-b-primary">
+                            <h4 class="title px-5 py-2.5 rounded-[20px] font-medium leading-[19px] inline-block bg-primary text-white">
+                                Brand Identity</h4>
+                            <p class="price text-[38px] font-medium font-bricolage text-primary mt-5">Custom Quote<span class="text-base text-black-100 font-normal capitalize">/project</span></p>
+                            <p class="save-percent text-lg leading-7 mb-5 mt-1">Complete branding solutions for your business</p>
+                        </div>
+                        <div class="pricing-details p-5">
+                            <ul class="flex flex-col gap-2.5 mb-[22px]">
+                                <li class="text-[rgb(119,119,125)] text-lg">
+                                    <i class="ri-arrow-right-line mr-2.5"></i>Logo design
+                                </li>
+                                <li class="text-[rgb(119,119,125)] text-lg">
+                                    <i class="ri-arrow-right-line mr-2.5"></i>Brand guidelines
+                                </li>
+                                <li class="text-[rgb(119,119,125)] text-lg">
+                                    <i class="ri-arrow-right-line mr-2.5"></i>Marketing materials
+                                </li>
+                                <li class="text-[rgb(119,119,125)] text-lg">
+                                    <i class="ri-arrow-right-line mr-2.5"></i>Social media assets
+                                </li>
+                                <li class="text-[rgb(119,119,125)] text-lg">
+                                    <i class="ri-arrow-right-line mr-2.5"></i>Print materials
+                                </li>
+                                <li class="text-[rgb(119,119,125)] text-lg">
+                                    <i class="ri-arrow-right-line mr-2.5"></i>Perfect for new and established businesses
+                                </li>
+                            </ul>
+                            <a href="#book" class="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white">
+                                Get Started<i class="ri-arrow-right-line ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing End -->
+
+    <!-- faqs start -->
+    <section id="faqs" class="lg:pt-25 pt-15">
+        <div class="container">
+            <div class="text-center pb-15 fadeInUp" data-delay="0.2">
+                <h3 class="border border-[#bebebe] py-2.5 px-5 rounded-3xl md:text-base md:leading-5 text-sm inline-block font-normal mb-[5px]">
+                    <i class="ri-arrow-right-up-line text-primary"></i>
+                    FAQs
+                </h3>
+                <h2 class="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black-100 font-medium">
+                    Frequently Asked Questions</h2>
+                <p class="md:text-xl md:leading-7 text-base mt-2">Unsure about subscription design?</p>
+            </div>
+
+            <div class="grid lg:grid-cols-[33.33%_auto] md:grid-cols-2 grid-cols-1 gap-6">
+                <div class="p-12.5 rounded-[15px] bg-black-200 text-center">
+                    <img src="assets/images/logos/silverlogo.png" alt="Web Launch Guys Logo" title="Web Launch Guys Logo" class="max-w-[140px] max-h-[140px] mx-auto">
+                    <h2 class="text-white lg:text-[40px] text-3xl lg:leading-[1.2] py-3">Book a 15-minute intro call
+                    </h2>
+                    <a href="#" class="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white">
+                        Schedule now <i class="ri-video-chat-line"></i>
+                    </a>
+                    <p class="text-white">Prefer to email? <a href="mailto:hello@designpro.com" class="text-primary">hello@designpro.com</a></p>
+                </div>
+
+                <div class="flex flex-col gap-[15px] lg:pl-7.5">
+                    <div class="accordion-item">
+                        <h2 data-open="false" class="accordion-header flex justify-between items-center lg:text-[22px] text-lg rounded-[10px] border border-[#ccc] py-4 px-5 font-medium cursor-pointer">
+                            What services do you offer?
+                            <span class="inline-block w-[11px] h-[11px] rounded-full bg-secondary shrink-0"></span>
+                        </h2>
+                        <div class="accordion-body max-h-0 overflow-hidden opacity-0 invisible px-5 py-0 transition-all duration-500">
+                            <p class="mb-4">We offer comprehensive design and development services including custom website design, brand identity development, responsive web development, content management systems, SEO optimization, and ongoing website maintenance. Each project is tailored to meet your specific business needs.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 data-open="false" class="accordion-header flex justify-between items-center lg:text-[22px] text-lg rounded-[10px] border border-[#ccc] py-4 px-5 font-medium cursor-pointer">
+                            How long does a typical project take?
+                            <span class="inline-block w-[11px] h-[11px] rounded-full bg-secondary shrink-0"></span>
+                        </h2>
+                        <div class="accordion-body max-h-0 overflow-hidden opacity-0 invisible px-5 py-0 transition-all duration-500">
+                            <p class="mb-4">Project timelines vary depending on scope and complexity. A typical website project can take 4-8 weeks from concept to launch, while brand identity projects usually take 2-4 weeks. We'll provide a detailed timeline during our initial consultation based on your specific requirements.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 data-open="false" class="accordion-header flex justify-between items-center lg:text-[22px] text-lg rounded-[10px] border border-[#ccc] py-4 px-5 font-medium cursor-pointer">
+                            How do you handle project pricing?
+                            <span class="inline-block w-[11px] h-[11px] rounded-full bg-secondary shrink-0"></span>
+                        </h2>
+                        <div class="accordion-body max-h-0 overflow-hidden opacity-0 invisible px-5 py-0 transition-all duration-500">
+                            <p class="mb-4">We provide custom quotes based on your project requirements. After understanding your needs during the consultation, we'll provide a detailed proposal with transparent pricing. Our pricing structure is project-based, with clear deliverables and milestones. We require a deposit to begin work, with the remainder due upon project completion.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 data-open="false" class="accordion-header flex justify-between items-center lg:text-[22px] text-lg rounded-[10px] border border-[#ccc] py-4 px-5 font-medium cursor-pointer">
+                            What is your design process?
+                            <span class="inline-block w-[11px] h-[11px] rounded-full bg-secondary shrink-0"></span>
+                        </h2>
+                        <div class="accordion-body max-h-0 overflow-hidden opacity-0 invisible px-5 py-0 transition-all duration-500">
+                            <p class="mb-4">Our design process begins with a thorough consultation to understand your needs and goals. We then move through discovery, strategy, design concepts, revisions, development, testing, and launch. Throughout the process, we maintain clear communication and provide regular updates. We include revision rounds to ensure the final product meets your expectations.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 data-open="false" class="accordion-header flex justify-between items-center lg:text-[22px] text-lg rounded-[10px] border border-[#ccc] py-4 px-5 font-medium cursor-pointer">
+                            Do you provide ongoing support after project completion?
+                            <span class="inline-block w-[11px] h-[11px] rounded-full bg-secondary shrink-0"></span>
+                        </h2>
+                        <div class="accordion-body max-h-0 overflow-hidden opacity-0 invisible px-5 py-0 transition-all duration-500">
+                            <p class="mb-4">Yes, we offer various maintenance and support packages to ensure your website continues to perform optimally after launch. This includes regular updates, security monitoring, content updates, and technical support. We can discuss the specific support options that best suit your needs during our consultation.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 data-open="false" class="accordion-header flex justify-between items-center lg:text-[22px] text-lg rounded-[10px] border border-[#ccc] py-4 px-5 font-medium cursor-pointer">
+                            How do we get started with a project?
+                            <span class="inline-block w-[11px] h-[11px] rounded-full bg-secondary shrink-0"></span>
+                        </h2>
+                        <div class="accordion-body max-h-0 overflow-hidden opacity-0 invisible px-5 py-0 transition-all duration-500">
+                            <p class="mb-4">Getting started is easy! Simply schedule a consultation through our website or contact us directly. During our initial meeting, we'll discuss your project requirements, goals, and timeline. After understanding your needs, we'll provide a detailed proposal and project plan. Once approved, we'll begin the design and development process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faqs end -->
+
+    <!-- Book now start -->
+    <section id="book" class="lg:pt-25 pt-15">
+        <div class="container">
+            <div class="lg:w-[75%] mx-auto text-center lg:px-12.5 py-7.5 px-8 border border-[rgba(0,0,0,0.05)] rounded-[20px] fadeInUp" data-delay="0.2">
+                <h2 class="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black-100 font-normal">
+                    Ready to build your next web project?</h2>
+                <p class="md:text-xl md:leading-7 text-base mt-2">Let's discuss how we can help bring your web project to life. Schedule a free consultation to explore your development needs.</p>
+                <div class="mt-7.5">
+                    <a href="#" class="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white">Schedule a Consultation</a>
+                </div>
+                <a href="#">
+                    <img src="assets/images/logos/logo.png" alt="Web Launch Guys Logo" title="Web Launch Guys Logo" class="max-w-[200px] mx-auto">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Book now end -->
+
+    <footer>
+        <div class="pt-12.5 pb-10">
+            <div class="container">
+                <div class="flex lg:flex-row flex-col items-center justify-between gap-y-4">
+                    <div class="copyright-text">
+                        <p>Copyright <a href="index.html" class="text-primary">&copy;Web Launch Guys</a> All Rights
+                            Reserved.</p>
+                    </div>
+                    <ul class="flex flex-wrap justify-center gap-x-7.5 gap-y-3">
+                        <li><a href="">Latest Project</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="scroll-to-top" class="z-40 fixed right-2.5 bottom-5 w-10 h-10 items-center justify-center cursor-pointer" style="display: none;">
+        <i class="ri-arrow-up-s-line absolute text-primary"></i>
+        <svg id="rounded-scroll" width="100%" height="100%" viewbox="-1 -1 102 102" stroke="#ff4f01" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+    </div>
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="npm/gsap%403.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
