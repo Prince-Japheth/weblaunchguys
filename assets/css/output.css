@@ -506,6 +506,10 @@ textarea::placeholder {
   /* 2 */
 }
 
+.info-item {
+  overflow: hidden;
+}
+
 /*
 Set the default cursor for buttons.
 */
